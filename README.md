@@ -36,9 +36,9 @@ To assess whether New York has a lower mean AQI than Ohio, guiding the decision 
 
 Hypotheses:
 
-Null: Mean AQI in New York ≥ Ohio
+Null hypothesis : Mean AQI in New York ≥ Ohio
 
-Alternative: Mean AQI in New York < Ohio
+Alternative hypothesis : Mean AQI in New York < Ohio
 
 Methodology:
 Conducted a one-sided Welch’s t-test (equal_var=False) at α=0.05
@@ -52,9 +52,9 @@ To evaluate whether Michigan’s mean AQI is ≥ 10, determining if the policy w
 
 Hypotheses:
 
-Null: Mean AQI Michigan < 10
+Null hypothesis : Mean AQI Michigan < 10
 
-Alternative: Mean AQI Michigan ≥ 10
+Alternative hypothesis : Mean AQI Michigan ≥ 10
 
 Methodology:
 Performed a one-sample t-test against the threshold value 10.
@@ -64,14 +64,14 @@ AQI distribution plots with a reference line at AQI = 10 to illustrate Michigan�
 
 My Approach:
 
-Throughout this analysis, I ensured:
+-Throughout this analysis, I ensured:
 
-Applying Welch’s t-test to account for unequal variances.
+-Applying Welch’s t-test to account for unequal variances.
 
-Maintaining a 5% significance level for confident decision-making.
+-Maintaining a 5% significance level for confident decision-making.
 
-Combining statistical tests with clear visualizations for better interpretability.
+-Combining statistical tests with clear visualizations for better interpretability.
 
-This project showcases my ability to apply statistical methods to real-world environmental issues and to translate data insights into policy recommendations.
+-This project showcases my ability to apply statistical methods to real-world environmental issues and to translate data insights into policy recommendations.
 
 Feel free to explore or contact me for a deeper discussion of the findings or methodologies!
